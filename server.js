@@ -8,7 +8,7 @@ const app = express()
 
 app.get('/', (req, res, next) => {
     res.send(
-        `<body style='background-color:#283E5B'><h1 style='color: orange;text-align:center'>Hello AWS ${os.hostname()}</h1></body>`
+        `<body style='background-color:#283E5B'><h1 style='color: orange;text-align:center'>Hello HIUMX AWS ${os.hostname()}</h1></body>`
     );
 })
 
